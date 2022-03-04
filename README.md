@@ -26,10 +26,37 @@ int main()
 
     avg=sum/3;
 
-    cout<<"\nThe SUM of 3 Numbers [ "<<a<<" + "<<b<<" + "<<c<<" ] = "<<sum<<"\n";
-    cout<<"\nThe AVERAGE of 3 Numbers [ "<<a<<", "<<b<<", "<<c<<" ] = "<<avg<<"\n";
+    cout<<"\nThe SUM of 3 Numbers = " <<sum<< endl;
+    cout<<"\nThe AVERAGE of 3 Numbers = " <<avg<< endl;
 
     return 0;
 } 
+    
+    
+//Write a C++ Program to Find Quotient and Remainder of 2 numbers. Here’s simple C++ Program to Find Quotient and Remainder of 2 numbers in C++ Programming Language. 
+    
+Solution: 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int divisor, dividend, quotient, remainder;
+
+    cout << "Enter dividend";
+    cin >> dividend;
+
+    cout << "Enter divisor";
+    cin >> divisor;
+
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+
+    cout << "Quotient = " << quotient  <<endl;
+    cout << "Remainder = " << remainder<<endl;
+
+    return 0;
+}
+
   
   
